@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Fredoka', sans-serif;
+}
+
+
+/*---------------BACKGROUND IMAGES--------------*/
+.hero-image {
+  background-image: linear-gradient(rgba(4, 9, 0, 0.1), rgba(4, 9, 0, 0.01)), url("bali3.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: black;
+  border-bottom: 5px solid #030303;
+}
+
+.hero-image2 {
+  background-image: url("images/swing2.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.hero-image3 {
+  background-image: url("images/leaves.jpg");
+  height: 60vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/*---------------BALI HOME PAGE LOGO-------------*/
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/*--------------SMALL TODO AND CONTACT LOGO-----------*/
+/*THIS IS THE BALI LOGO IN UPPER LEFT CORNER------------*/
+.balilogo {
+  font-family: 'the nautigal', cursive;
+  color: white;
+  font-size: 7.3vw;
+  height: 680px;
+  position: absolute;
+  width: 10%;
+  left: 1.5vw;
+  height: 5%;
+
+}
+
+
+/*---------------DIV NAVIGATION/button-------------------------*/
+
+
+
+/* THIS IS NAV POSITIONING*/
+.container {
+  position: absolute;
+  margin: 0px;
+  height: 50px;
+  opacity: 0.9;
+  margin-left: 28vw;
+}
+
+/*BUTTON STARTS HERE*/
+.button {
+  font-family: 'Fredoka', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 1.8vw;
+  padding: 5px 0px;
+  border: .3vw;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  width: 50%;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  border: .3vw;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.6);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.button:link {
+  text-decoration: none;
+  /*REMOVES UNDERLINE DECORATION*/
+}
+
+.button:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/*BUTTON ENDS HERE--------------------------------------*/
+
+ul {
+  list-style-type: none;
+  margin: 0vw;
+  padding: 0vw;
+  overflow: hidden;
+  font-size: 3.5vw;
+  font-family: 'the nautigal', cursive;
+
+}
+
+/* FLOATER SET HERE (MORE FLOAT IN ATTRACTIONS-TRANSBOX)*/
+li {
+  float: left;
+  padding: 1.5vw;
+  padding-left: 8.5vw;
+  padding-right: 5vw;
+
+}
+
+li a:hover {
+  color: #ffdd00;
+}
+
+
+ul {
+  list-style: none;
+  text-align: center;
+  text-shadow: 2px 1.5px #000000;
+}
+
+
+a:link {
+  text-decoration: none;
+
+  color: white;
+  /*REMOVES UNDERLINE DECORATION*/
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+/*------------------END OF CSS FOR NAV------------------------*/
+
+/*------THIS IS THE EXPLORE HEADING-------*/
+.explore {
+  color: white;
+  font-size: 4.5vw;
+
+  position: absolute;
+  width: 50%;
+  left: 40%;
+  top: 70%;
+
+}
+
+/*ORIGINAL TRANSBOX IN HOME PAGE 
+THIS ONE CUSTOMIZES BOTH HOME PAGE AND FIRST ATTRACTION-----------*/
+.transbox {
+  background: rgba(255, 255, 255, 0.85);
+  color: black;
+  display: inline;
+  position: absolute;
+  float: left;
+  border: 5px solid #ffffff;
+  padding: 1vw;
+  width: 100%;
+  height: 30vw;
+  margin-top: 0px;
+}
+
+.balimap {
+  height: 100%;
+  width: 50%;
+  float: left;
+  padding-right: 1vw;
+}
+
+/*THIS TRANSBOX IS BELOW ORIGINAL IN HOME PAGE*/
+.transbox2 {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: inline;
+  position: absolute;
+  float: left;
+
+  border: 5px solid #000000;
+  padding: 1vw;
+  width: 90%;
+  height: 35vw;
+  margin-top: 40vw;
+  left: 10px;
+  border-radius: 10px;
+}
+
+.plumeriaimage {
+  float: left;
+  padding-right: 1vw;
+  height: 100%;
+  max-width: 50vw;
+}
+
+
+
+/*SET AS ID ELEMENTS TO SET APART IN ATTRACTIONS--------------*/
+
+.divimage {
+  height: 20.8vw;
+  width: 27.75vw;
+  float: left;
+  padding-right: .69vw;
+
+}
+
+#transbox1 {
+  background: rgba(255, 255, 255, 0.85);
+  color: black;
+  display: inline;
+  position: absolute;
+  float: left;
+  border: 1vw solid #ffffff;
+  padding: 1vw;
+  width: 100%;
+  height: 26vw;
+  margin-top: 0px;
+
+}
+
+#transbox2 {
+  background: rgba(255, 255, 255, 0.85);
+  color: black;
+  display: inline;
+  position: absolute;
+  float: left;
+
+  border: 1vw solid #ffffff;
+  padding: 1vw;
+  width: 100%;
+  height: 26vw;
+  margin-top: 24.98vw;
+
+}
+
+
+#transbox3 {
+  background: rgba(255, 255, 255, 0.85);
+  color: black;
+  display: inline;
+  position: absolute;
+  float: left;
+  border: 1vw solid #ffffff;
+  padding: 1vw;
+  width: 100%;
+  height: 26vw;
+  margin-top: 49.97vw;
+}
+
+#transbox4 {
+  background: rgba(255, 255, 255, 0.85);
+  color: black;
+  display: inline;
+  position: absolute;
+  float: left;
+  border: 1vw solid #ffffff;
+  padding: 1vw;
+  width: 100%;
+  height: 26vw;
+  margin-top: 75vw;
+}
+
+#transbox5 {
+  background: rgba(255, 255, 255, 0.85);
+  color: black;
+  display: inline;
+  position: absolute;
+  float: left;
+  border: 1vw solid #ffffff;
+  padding: 1vw;
+  width: 100%;
+  height: 26vw;
+  margin-top: 100vw;
+}
+
+
+
+
+
+/*CONTACT US TRANSBOX -------------------------------*/
+.transbox6 {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: inline;
+  position: absolute;
+  border: 1vw solid #030303;
+  border-radius: 1vw;
+  padding-right: .69vw;
+  margin-left: .69vw;
+  margin-right: .69vw;
+  margin-top: 6.93vw;
+  width: 98.5%;
+  /*   margin-bottom:100vw; */
+  height: 42vw;
+}
+
+.contactUsMonkey {
+  height: 40vw;
+  width: 50%;
+  float: left;
+  padding-right: 1vw;
+
+
+}
+
+#textarea {
+  width: 13.87vw;
+  height: 13.87vw;
+  font-size: 1vw;
+  margin: 1vw;
+
+}
+
+/*END OF TRANPARENT BOXES---------------------------------------*/
+
+
+
+
+form {
+  text-align: center;
+  padding: 4vw;
+
+}
+
+.fname,
+.lname,
+.email {
+  width: 13.87vw;
+  height: 1.2vw;
+  margin-top: 1vw;
+  font-size: 1vw;
+}
+
+
+/*----------------FOOTER AND LOGOS----------*/
+
+footer,
+#logos {
+  text-align: center;
+  background-color: black;
+  opacity: 1;
+  color: white;
+  position: relative;
+  bottom: 0vw;
+  width: 100%;
+  height: 5vw;
+}
+
+.ig {
+  padding-top: .5vw;
+  margin-right: 1.8vw;
+
+}
+
+
+
+/*THESE ARE THE BALI FLOWER LOGOS------------------*/
+.toplogo {
+  text-align: center;
+  position: absolute;
+  top: 5vw;
+  left: 14vw;
+  transform: translate(-50%, -50%);
+  color: white;
+  height: 3vw;
+  width: 3vw;
+}
+
+.bottomlogo {
+  position: relative;
+  top: .5vw;
+  right: 51vw;
+}
