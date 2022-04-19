@@ -6,3 +6,6 @@ Revision of Gateway Project
 ![index.html validation](images/index.png)
 ![attractions.html validation](images/attractions.png)
 ![contactus.html validation](images/contactus.png)
+
+
+---
