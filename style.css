@@ -14,7 +14,7 @@ html {
 
 /*---------------BACKGROUND IMAGES--------------*/
 .hero-image {
-  background-image: linear-gradient(rgba(4, 9, 0, 0.1), rgba(4, 9, 0, 0.01)), url("bali3.jpg");
+  background-image: linear-gradient(rgba(4, 9, 0, 0.1), rgba(4, 9, 0, 0.01)), url("images/bali3.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
