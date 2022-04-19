@@ -12,4 +12,14 @@ Revision of Gateway Project
 ---
 ## 2. Here is CSS validation
 
-![style.css validation](images/css.png)
+![style.css validation](images/cssvalidation.png)
+
+---
+---
+
+## 3. Here are the lighthouse results
+
+![index.html validation](images/lighthouse.png)
+
+![index.html validation](images/lighthouse2.png)
+![index.html validation](images/lighthouse3.png)
