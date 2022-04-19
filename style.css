@@ -38,12 +38,14 @@ html {
 
 .hero-image3 {
   background-image: url("images/leaves.jpg");
-  height: 60vw;
+  height: 100%;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
 }
 
 
@@ -198,7 +200,7 @@ THIS ONE CUSTOMIZES BOTH HOME PAGE AND FIRST ATTRACTION-----------*/
 
 .balimap {
   height: 100%;
-  width: 50%;
+  width: 44%;
   float: left;
   padding-right: 1vw;
 }
@@ -259,7 +261,6 @@ THIS ONE CUSTOMIZES BOTH HOME PAGE AND FIRST ATTRACTION-----------*/
   display: inline;
   position: absolute;
   float: left;
-
   border: 1vw solid #ffffff;
   padding: 1vw;
   width: 100%;
@@ -325,13 +326,12 @@ THIS ONE CUSTOMIZES BOTH HOME PAGE AND FIRST ATTRACTION-----------*/
   margin-right: .69vw;
   margin-top: 6.93vw;
   width: 98.5%;
-  /*   margin-bottom:100vw; */
   height: 42vw;
 }
 
 .contactUsMonkey {
   height: 40vw;
-  width: 50%;
+  width: 64%;
   float: left;
   padding-right: 1vw;
 
@@ -381,6 +381,8 @@ footer,
   height: 5vw;
 }
 
+
+
 .ig {
   padding-top: .5vw;
   margin-right: 1.8vw;
@@ -398,11 +400,11 @@ footer,
   transform: translate(-50%, -50%);
   color: white;
   height: 3vw;
-  width: 3vw;
+  width: 3.5vw;
 }
 
 .bottomlogo {
   position: relative;
-  top: .5vw;
-  right: 51vw;
+  top: .6vw;
+  right: 49.5vw;
 }
